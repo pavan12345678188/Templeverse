@@ -5858,7 +5858,7 @@ function HomePage({ onSelectTemple, onNavigate }) {
   return (
     <>
       {/* HERO */}
-      <section className={`relative z-10 text-center pt-28 pb-12 overflow-hidden ${dark ? '' : ''}`}>
+      <section className={`relative z-10 text-center pt-4 md:pt-28 pb-12 overflow-hidden ${dark ? '' : ''}`}>
         {/* Animated background rings */}
         <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
           {[400, 600, 800].map((size, i) => (
@@ -5871,10 +5871,10 @@ function HomePage({ onSelectTemple, onNavigate }) {
 
         <motion.div initial={{ opacity: 0, y: -30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
           <div className="flex justify-center items-center gap-4 mb-4">
-            <motion.span className="text-5xl md:text-7xl text-yellow-600 drop-shadow-[0_0_30px_gold]"
+            <motion.span className="text-lg sm:text-xl  md:text-7xl text-yellow-600 drop-shadow-[0_0_30px_gold]"
               animate={{ scale: [1, 1.15, 1], rotate: [0, 5, -5, 0] }} transition={{ repeat: Infinity, duration: 3 }}>ॐ</motion.span>
-            <h1 className={`text-4xl md:text-6xl lg:text-7xl font-bold tracking-widest ${dark ? 'text-yellow-400' : 'text-yellow-700'}`}>TEMPLEVERSE</h1>
-            <motion.span className="text-5xl md:text-7xl text-yellow-600 drop-shadow-[0_0_30px_gold]"
+            <h1 className={`text-3xl md:text-6xl lg:text-7xl font-bold tracking-widest ${dark ? 'text-yellow-400' : 'text-yellow-700'}`}>TEMPLEVERSE</h1>
+            <motion.span className="text-lg sm:text-xl  md:text-7xl text-yellow-600 drop-shadow-[0_0_30px_gold]"
               animate={{ scale: [1, 1.15, 1], rotate: [0, -5, 5, 0] }} transition={{ repeat: Infinity, duration: 3 }}>ఓం</motion.span>
           </div>
           <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.4 }}
@@ -5958,7 +5958,7 @@ function SearchResultsPage({ query, onSelectTemple, onBack }) {
   );
 
   return (
-    <section className="relative z-10 pt-28 pb-8">
+    <section className="relative z-10 pt-4 md:pt-28 pb-8">
       <div className="max-w-6xl mx-auto px-4">
         <BackButton onBack={onBack} />
         <h1 className={`text-4xl font-bold mb-2 ${dark ? 'text-yellow-400' : 'text-yellow-700'}`}>Search Results</h1>
@@ -6018,15 +6018,15 @@ function ExploreTemplesPage({ onSelectTemple, categoryFilter, stateFilter, playA
   const archStyles = [...new Set(templesData.map(t => t.architecture_style).filter(Boolean))].sort();
 
   return (
-    <section className="relative z-10 pt-28 pb-8">
+    <section className="relative z-10 pt-4 md:pt-28 pb-8">
       <div className="max-w-6xl mx-auto px-4">
         <h1 className={`text-4xl md:text-5xl font-bold mb-6 text-center ${dark ? 'text-yellow-400' : 'text-yellow-700'}`}>{pageTitle}</h1>
         {/* Filter bar */}
-        <div className={`flex flex-wrap gap-3 mb-6 p-4 rounded-2xl border ${dark ? 'bg-gray-800 border-yellow-800' : 'bg-white/80 border-yellow-200'}`}>
+        <div className={`flex flex-col sm:flex-row sm:flex-wrap gap-3 mb-6 p-4 rounded-2xl border ${dark ? 'bg-gray-800 border-yellow-800' : 'bg-white/80 border-yellow-200'}`}>
           <input value={search} onChange={e=>setSearch(e.target.value)} placeholder="🔍 Search by name or deity..."
-            className={`flex-1 min-w-[180px] border rounded-full px-4 py-2 text-sm ${dark ? 'bg-gray-700 border-gray-600 text-white placeholder-gray-400' : 'border-yellow-300 text-gray-800'}`} />
+            className={`w-full sm:flex-1 min-w-0 border rounded-full px-4 py-2 text-sm ${dark ? 'bg-gray-700 border-gray-600 text-white placeholder-gray-400' : 'border-yellow-300 text-gray-800'}`} />
           <select value={archFilter} onChange={e=>setArchFilter(e.target.value)}
-            className={`border rounded-full px-4 py-2 text-sm ${dark ? 'bg-gray-700 border-gray-600 text-white' : 'border-yellow-300 text-gray-800 bg-white'}`}>
+            className={`w-full sm:flex-auto flex-shrink-0 border rounded-full px-4 py-2 text-sm ${dark ? 'bg-gray-700 border-gray-600 text-white' : 'border-yellow-300 text-gray-800 bg-white'}`}>
             <option value="">All Architecture</option>
             {archStyles.map((s,i) => <option key={i} value={s}>{s}</option>)}
           </select>
@@ -6062,7 +6062,7 @@ function FavoritesPage({ onSelectTemple, onBack }) {
   const favTemples = templesData.filter(t => favorites.includes(t.id));
 
   return (
-    <section className="relative z-10 pt-28 pb-8">
+    <section className="relative z-10 pt-4 md:pt-28 pb-8">
       <div className="max-w-6xl mx-auto px-4">
         <BackButton onBack={onBack} />
         <h1 className={`text-4xl font-bold mb-2 ${dark ? 'text-yellow-400' : 'text-yellow-700'}`}>❤️ My Favorites</h1>
@@ -6136,7 +6136,7 @@ function MapViewPage({ onSelectTemple, onBack }) {
   }, [templesToShow.length, search]);
 
   return (
-    <section className="relative z-10 pt-28 pb-8">
+    <section className="relative z-10 pt-4 md:pt-28 pb-8">
       <div className="max-w-6xl mx-auto px-4">
         <BackButton onBack={onBack} />
         <h1 className={`text-4xl font-bold mb-4 ${dark ? 'text-yellow-400' : 'text-yellow-700'}`}>🗺️ Temple Map</h1>
@@ -6185,7 +6185,7 @@ function NearbyTemplesPage({ onSelectTemple, onBack }) {
     : [];
 
   return (
-    <section className="relative z-10 pt-28 pb-8">
+    <section className="relative z-10 pt-4 md:pt-28 pb-8">
       <div className="max-w-6xl mx-auto px-4">
         <BackButton onBack={onBack} />
         <h1 className={`text-4xl font-bold mb-2 ${dark ? 'text-yellow-400' : 'text-yellow-700'}`}>📍 Nearby Temples</h1>
@@ -6333,7 +6333,7 @@ function TempleDetailPage({ templeId, onBack }) {
   }, [temple?.audio]);
 
   if (!temple) return (
-    <section className="relative z-10 text-center pt-28 pb-8">
+    <section className="relative z-10 text-center pt-4 md:pt-28 pb-8">
       <h1 className="text-4xl text-red-700">Temple Not Found</h1>
       <button onClick={onBack} className="mt-8 px-6 py-3 bg-yellow-600 text-white rounded-full">Back</button>
     </section>
@@ -6345,7 +6345,7 @@ function TempleDetailPage({ templeId, onBack }) {
   const pauseAudio = () => { if (playerRef.current) { playerRef.current.stop(); setIsPlaying(false); } };
 
   return (
-    <section className="relative z-10 pt-28 pb-12">
+    <section className="relative z-10 pt-4 md:pt-28 pb-12">
       <div className="max-w-4xl mx-auto px-4">
         <BackButton onBack={onBack} />
 
@@ -6518,7 +6518,7 @@ function TempleDetailPage({ templeId, onBack }) {
 function AboutPage({ onBack }) {
   const { dark } = useDarkMode();
   return (
-    <section className="relative z-10 pt-28 pb-8">
+    <section className="relative z-10 pt-4 md:pt-28 pb-8">
       <div className="max-w-4xl mx-auto px-4">
         <BackButton onBack={onBack} />
         <h1 className={`text-4xl md:text-5xl font-bold mb-8 text-center ${dark ? 'text-yellow-400' : 'text-yellow-700'}`}>About Templeverse</h1>
@@ -6553,7 +6553,7 @@ function CategoriesPage({ onNavigateToExplore, onBack }) {
   const colorMap = { orange: dark ? 'bg-orange-900/30 border-orange-700' : 'bg-orange-50 border-orange-200', blue: dark ? 'bg-blue-900/30 border-blue-700' : 'bg-blue-50 border-blue-200', red: dark ? 'bg-red-900/30 border-red-700' : 'bg-red-50 border-red-200', green: dark ? 'bg-green-900/30 border-green-700' : 'bg-green-50 border-green-200', purple: dark ? 'bg-purple-900/30 border-purple-700' : 'bg-purple-50 border-purple-200', teal: dark ? 'bg-teal-900/30 border-teal-700' : 'bg-teal-50 border-teal-200', pink: dark ? 'bg-pink-900/30 border-pink-700' : 'bg-pink-50 border-pink-200' };
 
   return (
-    <section className="relative z-10 pt-28 pb-8">
+    <section className="relative z-10 pt-4 md:pt-28 pb-8">
       <div className="max-w-5xl mx-auto px-4">
         <BackButton onBack={onBack} />
         <h1 className={`text-4xl font-bold mb-8 text-center ${dark ? 'text-yellow-400' : 'text-yellow-700'}`}>Temple Categories</h1>
@@ -6589,7 +6589,7 @@ function TicketsPage({ onBack }) {
   }, [selectedTempleId]);
 
   return (
-    <section className="relative z-10 pt-28 pb-8">
+    <section className="relative z-10 pt-4 md:pt-28 pb-8">
       <div className="max-w-4xl mx-auto px-4">
         <BackButton onBack={onBack} />
         <h1 className={`text-4xl font-bold mb-8 text-center ${dark ? 'text-yellow-400' : 'text-yellow-700'}`}>🎟 Darshanam Tickets</h1>
@@ -6641,7 +6641,7 @@ function FestivalsPage({ onBack }) {
   }, [selectedTempleId]);
 
   return (
-    <section className="relative z-10 pt-28 pb-8">
+    <section className="relative z-10 pt-4 md:pt-28 pb-8">
       <div className="max-w-4xl mx-auto px-4">
         <BackButton onBack={onBack} />
         <h1 className={`text-4xl font-bold mb-8 text-center ${dark ? 'text-yellow-400' : 'text-yellow-700'}`}>🎉 Temple Festivals</h1>
@@ -6676,7 +6676,7 @@ function HistoryPage({ onBack }) {
   const selectedTemple = templesData.find(t => t.id === selectedTempleId);
 
   return (
-    <section className="relative z-10 pt-28 pb-8">
+    <section className="relative z-10 pt-4 md:pt-28 pb-8">
       <div className="max-w-4xl mx-auto px-4">
         <BackButton onBack={onBack} />
         <h1 className={`text-4xl font-bold mb-6 text-center ${dark ? 'text-yellow-400' : 'text-yellow-700'}`}>📖 History of Temples</h1>
@@ -6725,7 +6725,7 @@ function ContactPage({ onBack }) {
   };
 
   return (
-    <section className="relative z-10 pt-28 pb-8">
+    <section className="relative z-10 pt-4 md:pt-28 pb-8">
       <div className="max-w-2xl mx-auto px-4">
         <BackButton onBack={onBack} />
         <h1 className={`text-4xl font-bold mb-6 text-center ${dark ? 'text-yellow-400' : 'text-yellow-700'}`}>📞 Contact Us</h1>
@@ -6773,7 +6773,7 @@ function StatewiseTemplesPage({ onSelectState, onBack }) {
   const states = Object.entries(stateMap).sort((a,b) => a[0].localeCompare(b[0]));
 
   return (
-    <section className="relative z-10 pt-28 pb-8">
+    <section className="relative z-10 pt-4 md:pt-28 pb-8">
       <div className="max-w-5xl mx-auto px-4">
         <BackButton onBack={onBack} />
         <h1 className={`text-4xl font-bold mb-8 text-center ${dark ? 'text-yellow-400' : 'text-yellow-700'}`}>🏛️ Temples by State</h1>
@@ -6877,12 +6877,12 @@ function App() {
           <div className={`min-h-screen transition-colors duration-300 ${dark ? 'bg-gray-950 text-white' : 'bg-gradient-to-b from-amber-50 via-yellow-50 to-white text-gray-800'}`}>
             <TopNavbar onNavigate={handleNavigate} onSearch={handleSearch} />
             <Sidebar onNavigate={handleNavigate} />
-            <div className="md:ml-64">
+            <div className="md:ml-64 pt-14 md:pt-0">
               {/* Desktop search bar at top */}
               <div className={`hidden md:block sticky top-0 z-40 px-6 py-3 border-b transition-colors ${dark ? 'bg-gray-950 border-yellow-900' : 'bg-amber-50/90 border-yellow-100'} backdrop-blur`}>
                 <SearchBar onSearch={handleSearch} />
               </div>
-              <main className="px-0">
+              <main className="px-0 w-full overflow-x-hidden">
                 {renderPage()}
               </main>
             </div>
