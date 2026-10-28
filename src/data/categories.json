@@ -1,0 +1,308 @@
+{
+  "categories": [
+    {
+      "id": "jyotirlinga",
+      "slug": "Jyotilinga",
+      "name": "12 Jyotirlingas",
+      "title": "The Twelve Radiant Manifestations of Lord Shiva",
+      "deity": "Lord Shiva (Swayambhu Linga)",
+      "element": "Jyoti (Cosmic Radiant Light)",
+      "icon": "🕉️",
+      "short_description": "The twelve holy shrines where Lord Shiva manifested as an infinite cosmic pillar of light (Jyotirlinga).",
+      "description": "According to the Shiva Purana (Koti Rudra Samhita), the Jyotirlingas are the supreme pilgrimage shrines of Shaivism. When Lord Brahma and Lord Vishnu had a debate over supremacy, Lord Shiva pierced the three worlds as an endless pillar of light (Stambha). These 12 shrines mark the earthly manifestations where Shiva's divine aura took physical form.",
+      "prominent_rituals": [
+        "Maha Rudrabhishekam with Panchamrita (Milk, Honey, Ghee, Curd, Sugarcane juice)",
+        "Bhasma Aarti (sacred ash ceremony performed at pre-dawn in Mahakaleshwar)",
+        "Bilva Patra Archana offering 108 or 1008 trifoliate leaves",
+        "Sayana Aarti and Rudra Trishati chanting",
+        "Shravana Somavara special abhishekas and Kanwar Teertha Jal offering"
+      ],
+      "spiritual_significance": "A pilgrimage across the 12 Jyotirlingas is believed to bestow liberation (Moksha) and burn past karmic burdens.",
+      "scriptural_origin": "Shiva Purana, Skanda Purana",
+      "total_temples": 12,
+      "key_locations": [
+        "Somnath (Gujarat)",
+        "Mallikarjuna (Andhra Pradesh)",
+        "Mahakaleshwar (Madhya Pradesh)",
+        "Omkareshwar (Madhya Pradesh)",
+        "Kedarnath (Uttarakhand)",
+        "Bhimashankar (Maharashtra)",
+        "Kashi Vishwanath (Uttar Pradesh)",
+        "Trimbakeshwar (Maharashtra)",
+        "Baidyanath (Jharkhand)",
+        "Nageshwar (Gujarat)",
+        "Ramanathaswamy (Tamil Nadu)",
+        "Grishneshwar (Maharashtra)"
+      ]
+    },
+    {
+      "id": "pancha-bhoota",
+      "slug": "Pancha Bhoota Stalams",
+      "name": "5 Pancha Bhoota Stalams",
+      "title": "The Five Elemental Sanctums of Lord Shiva",
+      "deity": "Lord Shiva (Elemental Manifestations)",
+      "element": "Five Cosmic Elements (Earth, Water, Fire, Air, Space)",
+      "icon": "🌊",
+      "short_description": "Five ancient South Indian temples where Lord Shiva represents the five primal elements of nature.",
+      "description": "The Pancha Bhoota Stalams embody the cosmic manifestation of Shiva through the five primal elements (Bhutas) that comprise the material universe. All five temples are geographically aligned in South India along approximately 79°E longitude, showcasing ancient Indian astronomical and architectural genius.",
+      "prominent_rituals": [
+        "Appu Lingam Abhishekam (Water springing naturally around the lingam at Thiruvanaikaval)",
+        "Agni Deeparadhana & Karthigai Maha Deepam flame lighting atop Arunachala Hill",
+        "Vayu Lingam Rahu-Ketu Sarpa Dosha Nivarana Pooja with flickering oil lamps",
+        "Prithvi Lingam worship without water abhisheka (anointed only with jasmine oil at Ekambareswarar)",
+        "Chidambara Rahasyam unveiling and Ananda Tandava Spatika Linga Puja"
+      ],
+      "spiritual_significance": "Devotees pray at these shrines to harmonize the five bodily elements (Pancha Tattvas) and attain spiritual tranquility.",
+      "scriptural_origin": "Periya Puranam, Tevaram hymns",
+      "total_temples": 5,
+      "key_locations": [
+        "Jambukeswarar - Water (Tiruchirappalli, Tamil Nadu)",
+        "Arunachaleswarar - Fire (Tiruvannamalai, Tamil Nadu)",
+        "Srikalahasteeswara - Air (Srikalahasti, Andhra Pradesh)",
+        "Ekambareswarar - Earth (Kanchipuram, Tamil Nadu)",
+        "Thillai Nataraja - Space (Chidambaram, Tamil Nadu)"
+      ]
+    },
+    {
+      "id": "shakti-peetha",
+      "slug": "Maha Shakti Peetha",
+      "name": "18 Maha Shakti Peethas",
+      "title": "The Sacred Cosmic Shrines of the Divine Mother",
+      "deity": "Adi Parashakti (Goddess Sati / Durga / Kali)",
+      "element": "Shakti (Universal Creative Energy)",
+      "icon": "🌺",
+      "short_description": "Venerated pilgrimage shrines where divine body parts and ornaments of Goddess Sati consecrated the earth.",
+      "description": "Following the self-immolation of Goddess Sati at Daksha's Yajna, Lord Shiva performed the cosmic dance of destruction (Rudra Tandava) carrying her mortal body. To preserve the cosmos, Lord Vishnu severed Sati's body into divine fragments using the Sudarshana Chakra, sanctifying each spot with supreme feminine energy (Shaktitvam).",
+      "prominent_rituals": [
+        "Kumkumarchana with Lalitha Sahasranama chanting",
+        "Chandi Homa and Sri Vidya Navavarana Puja",
+        "Suvasini Puja honoring women as living representations of the Goddess",
+        "Sindoor & Haldi Arpanam with red silk sari offerings",
+        "Navaratri Ghatasthapana and Vijayadashami Teppotsavam"
+      ],
+      "spiritual_significance": "Invoking the Divine Mother at her Shakti Peethas bestows inner courage, boons, removal of fear, and material and spiritual prosperity.",
+      "scriptural_origin": "Devi Bhagavata Purana, Kalika Purana, Adi Shankara Ashta Dasa Shakti Peetha Stotram",
+      "total_temples": 18,
+      "key_locations": [
+        "Shankari (Trincomalee)",
+        "Kamakshi (Kanchipuram)",
+        "Shrinkhala (Pradmunam)",
+        "Chamundeshwari (Mysuru)",
+        "Jogulamba (Alampur)",
+        "Bhramaramba (Srisailam)",
+        "Mahalakshmi (Kolhapur)",
+        "Ekaveerika (Mahur)",
+        "Mahakali (Ujjain)",
+        "Puruhutika (Pithapuram)",
+        "Girija (Jajpur)",
+        "Manikyamba (Draksharama)",
+        "Kamarupa (Kamakhya, Guwahati)",
+        "Madhaveshwari (Prayagraj)",
+        "Vaishnavi (Katra)",
+        "Sarvamangala (Gaya)",
+        "Vishalakshi (Varanasi)",
+        "Sharada (Kashmir)"
+      ]
+    },
+    {
+      "id": "char-dham",
+      "slug": "Char Dham",
+      "name": "Char Dham Shrines",
+      "title": "The Four Sacred Cardinal Cardinal Abodes of India",
+      "deity": "Lord Vishnu / Hari-Hara",
+      "element": "Chatur-Dham (Four Cardinal Directions)",
+      "icon": "🏛️",
+      "short_description": "The four sacred cardinal corners of India established by Adi Shankaracharya to unite the spiritual fabric of Bharat.",
+      "description": "The Char Dham represents India's four quintessential holy pilgrimage destinations defined geographically across the four corners of the subcontinent: Badrinath in the North, Rameswaram in the South, Puri Jagannath in the East, and Dwarka in the West. Visiting all four Dhams is the supreme aspiration for spiritual pilgrims.",
+      "prominent_rituals": [
+        "Mahaprasad Chappan Bhog offering (Puri Jagannath)",
+        "22 Sacred Teertham Snanam wells bath (Rameswaram)",
+        "Dhwaja Aarohan 52-yard flag unfurling (Dwarkadhish)",
+        "Tapt Kund holy sulphur bath & Maha Abhishek (Badrinath)",
+        "Char Dham Parikrama and Sankalpam"
+      ],
+      "spiritual_significance": "Completing the Char Dham pilgrimage is revered as the ultimate path to Vaikuntha and moksha in Hindu tradition.",
+      "scriptural_origin": "Mahabharata, Skanda Purana",
+      "total_temples": 4,
+      "key_locations": [
+        "Badrinath (Uttarakhand - North)",
+        "Rameswaram (Tamil Nadu - South)",
+        "Jagannath Puri (Odisha - East)",
+        "Dwarkadhish (Gujarat - West)"
+      ]
+    },
+    {
+      "id": "pancharama",
+      "slug": "Pancharama Kshetrams",
+      "name": "Pancharama Kshetrams",
+      "title": "The Five Sacred Shivalingas of Andhra Pradesh",
+      "deity": "Lord Shiva (Fragments of Tarakasura's Linga)",
+      "element": "Prana & Amrita",
+      "icon": "🌸",
+      "short_description": "Five ancient temples in coastal Andhra Pradesh where pieces of the divine Shivalinga fell after Tarakasura was vanquished.",
+      "description": "According to legend, the demon king Tarakasura possessed an invincible Atma Linga around his neck. Lord Kartikeya shattered the linga into five pieces with his divine spear (Vel). To prevent the pieces from reuniting, Lord Indra, Surya, Chandra, and Vishnu installed and consecrated them at five distinct sthalas across Godavari and Krishna river deltas.",
+      "prominent_rituals": [
+        "Ksheerabhishekam with pure cow milk and holy river waters",
+        "Maha Shivaratri Jagaran and Rathotsavam",
+        "Karthika Somavara Deepotsavam",
+        "Laksha Bilvarchana with sacred verses",
+        "Pancharama Yatra (visiting all 5 shrines in a single day during Karthika month)"
+      ],
+      "spiritual_significance": "A single Karthika Masam pilgrimage across the five Pancharamas is said to bestow the spiritual merit of performing an Ashwamedha Yajna.",
+      "scriptural_origin": "Skanda Purana, Andhra Purana",
+      "total_temples": 5,
+      "key_locations": [
+        "Amararama (Amaravathi)",
+        "Draksharama (Draksharamam)",
+        "Somarama (Bhimavaram)",
+        "Ksheerarama (Palakollu)",
+        "Kumararama (Samalkot)"
+      ]
+    },
+    {
+      "id": "atma-linga",
+      "slug": "Atma Linga",
+      "name": "5 Atma Lingas",
+      "title": "Sacred Fragments of Shiva's Cosmic Atma Linga",
+      "deity": "Lord Shiva (Pranalinga)",
+      "element": "Atma Tattva (Soul Consciousness)",
+      "icon": "🛕",
+      "short_description": "Temples housing pieces of the original Atma Linga obtained by Ravana through arduous penance.",
+      "description": "When Ravana performed severe penance at Mount Kailash, Lord Shiva granted him his personal Atma Linga on the condition that it never be placed on the ground. Through divine intervention by Lord Ganesha, the linga was grounded at Gokarna. In frustration, Ravana attempted to uproot it, scattering holy fragments across the western coast.",
+      "prominent_rituals": [
+        "Samudra Snanam (Holy sea bath before sanctum entry at Gokarna & Murudeshwar)",
+        "Sparsha Darshanam (Devotees allowed to touch and perform abhishekam to the linga)",
+        "Rudrabhishekam with coconut water and cow milk",
+        "Maha Shivaratri Car Festival and Deepotsava"
+      ],
+      "spiritual_significance": "Touching and praying to the Atma Linga removes the fear of death and grants ultimate salvation.",
+      "scriptural_origin": "Gokarna Purana, Shiva Purana",
+      "total_temples": 5,
+      "key_locations": [
+        "Mahabaleshwar Temple (Gokarna, Karnataka - Main Linga)",
+        "Murudeshwar Temple (Bhatkal, Karnataka - Covering cloth)",
+        "Gunavanteshwar (Gunavante, Karnataka)",
+        "Dhareshwar (Kumta, Karnataka)",
+        "Shejjeshwar (Karwar, Karnataka)"
+      ]
+    },
+    {
+      "id": "ancient-unesco",
+      "slug": "Ancient",
+      "name": "Ancient & UNESCO Heritage Temples",
+      "title": "Architectural Wonders of Bharat's Royal Dynasties",
+      "deity": "Various (Shiva, Vishnu, Surya, Durga)",
+      "element": "Shilpa Shastra (Stone Architecture)",
+      "icon": "📜",
+      "short_description": "Monumental stone temple complexes recognized globally for exquisite rock-cut carvings, gopurams, and millennia-old heritage.",
+      "description": "These masterpieces showcase the zenith of Indian stone architecture, spanning Dravidian, Nagara, Vesara, Kalinga, Hoysala, and Pallava styles. Built under the patronage of the Cholas, Guptas, Chalukyas, Rashtrakutas, and Vijayanagara emperors, they stand as living testaments to India's cultural and civilizational zenith.",
+      "prominent_rituals": [
+        "Daily Sandhya Deeparadhana and Veda Parayanam",
+        "Annual Car Festivals (Ther Thiruvizha) pulling colossal wooden chariots",
+        "Traditional Nadaswaram and Thavil temple orchestra recitals",
+        "Brahmotsavam with grand divine processions"
+      ],
+      "spiritual_significance": "Experiencing the intricate stone geometry, mandapas, and sacred energy alignments transports devotees into higher meditative states.",
+      "scriptural_origin": "Vastu Vidya, Manasara, Agamas",
+      "total_temples": 24,
+      "key_locations": [
+        "Brihadeeswarar Temple (Thanjavur, Tamil Nadu)",
+        "Meenakshi Amman Temple (Madurai, Tamil Nadu)",
+        "Kailasa Temple (Ellora, Maharashtra)",
+        "Konark Sun Temple (Konark, Odisha)",
+        "Virupaksha Temple (Hampi, Karnataka)",
+        "Hoysaleswara Temple (Halebidu, Karnataka)",
+        "Shore Temple (Mahabalipuram, Tamil Nadu)",
+        "Srirangam Ranganathaswamy (Tamil Nadu)",
+        "Khajuraho Temples (Madhya Pradesh)"
+      ]
+    },
+    {
+      "id": "tirupati-famous",
+      "slug": "tirupati-famous",
+      "name": "Famous Temples in Tirupati",
+      "title": "Sacred Hill Shrines & Tirumala Environs",
+      "deity": "Lord Venkateswara, Padmavathi Ammavaru, Shiva",
+      "element": "Seshachalam Sacred Hills (Seven Peaks)",
+      "icon": "🙏",
+      "short_description": "Revered temples located within and around the sacred Tirupati-Tirumala pilgrimage corridor.",
+      "description": "Tirupati is the world's most visited sacred pilgrimage hub. Anchored by the Kali Yuga Vaikuntham atop the Tirumala Seven Hills, the surrounding landscape contains ancient consecrated teerthams, Devi shrines, and Shiva kshetrams that every devotee visits during their pilgrimage.",
+      "prominent_rituals": [
+        "Suprabhata Seva (Pre-dawn awakening hymns rendered to Lord Venkateswara)",
+        "Thomala Seva & Archana chanting 1008 Sahasranamavalis",
+        "Kalyanotsavam (Daily celestial wedding ritual performed for the Lord and His consorts)",
+        "Tirupati Laddu Prasadam preparation following century-old Dittam recipe",
+        "Mottai / Tonsuring offering as an act of ego-surrender",
+        "Holy bath at Papavinasanam, Swami Pushkarini, and Akasaganga waterfalls"
+      ],
+      "spiritual_significance": "Worship of Lord Venkateswara at Venkatadri destroys all sins and grants relief from Kali Yuga tribulations.",
+      "scriptural_origin": "Varaha Purana, Bhavishyottara Purana, Garuda Purana",
+      "total_temples": 9,
+      "key_locations": [
+        "Tirumala Venkateswara Temple",
+        "Sri Padmavathi Ammavari Temple (Tiruchanur)",
+        "Sri Govindaraja Swamy Temple (Tirupati)",
+        "Kapila Theertham (Foot of Hills)",
+        "Japali Hanuman Theertham",
+        "Vakulmatha Temple",
+        "Papavinasanam & Akasaganga"
+      ]
+    },
+    {
+      "id": "arunachalam-lingam",
+      "slug": "arunachalam-lingam",
+      "name": "8 Arunachalam Lingams (Ashta Lingams)",
+      "title": "The Eight Directional Guardians of Arunachala Girivalam",
+      "deity": "Lord Shiva (Eight Directional Manifestations)",
+      "element": "Agni (Spiritual Flame of Arunachala)",
+      "icon": "⭐",
+      "short_description": "Eight directional lingam shrines lining the 14-kilometer sacred circumambulation path around Arunachala.",
+      "description": "Girivalam (barefoot circumambulation of the 14 km holy hill of Arunachala) is among the most potent spiritual practices in Shaivism. The perimeter is guarded by eight directional Shiva Lingams consecrated by celestial regents (Digpalas): Indra, Agni, Yama, Niruthi, Varuna, Vayu, Kubera, and Ishanya.",
+      "prominent_rituals": [
+        "Pournami Girivalam (Full moon night barefoot circumambulation covering 14 kilometers)",
+        "Deeparadhana at each of the 8 Ashta Linga shrines during the journey",
+        "Camphor and ghee lamp offering at Kubera Lingam for prosperity",
+        "Pradakshina chanting 'Arunachala Shiva, Arunachala Shiva'",
+        "Special abhishekam on Pradosham and Shivaratri"
+      ],
+      "spiritual_significance": "Completing the Girivalam dispels worldly attachments, balances the nine planetary influences (Navagrahas), and leads to Self-realization.",
+      "scriptural_origin": "Arunachala Purana, Skanda Purana",
+      "total_temples": 8,
+      "key_locations": [
+        "Indra Lingam (East)",
+        "Agni Lingam (South-East)",
+        "Yama Lingam (South)",
+        "Niruthi Lingam (South-West)",
+        "Varuna Lingam (West)",
+        "Vayu Lingam (North-West)",
+        "Kubera Lingam (North)",
+        "Ishanya Lingam (North-East)"
+      ]
+    },
+    {
+      "id": "srikakulam-temples",
+      "slug": "srikakulam-temples",
+      "name": "Temples in Srikakulam",
+      "title": "Ancient Kalinga Heritage and Solar Shrines",
+      "deity": "Surya Bhagavan, Kurma Avatar, Shiva",
+      "element": "Tejas (Sun) and Prithvi (Earth Kurma)",
+      "icon": "🏛️",
+      "short_description": "Millennia-old spiritual shrines in northern coastal Andhra Pradesh showcasing rare Vedic deities.",
+      "description": "Srikakulam district hosts some of the rarest temples in the Hindu world: the famous Sun Temple at Arasavalli (where sun rays kiss the deity's feet twice a year), the Sri Kurmam temple (the only temple in India dedicated to Lord Vishnu's Kurma / Tortoise incarnation), and Sri Mukhalingam, the ancient capital of the Eastern Ganga dynasty.",
+      "prominent_rituals": [
+        "Ratha Saptami Surya Namaskaram and Ksheerabhishekam at Arasavalli",
+        "Sun ray darshan ritual during Uttarayan and Dakshinayan transitions",
+        "Kamadhenu Pushkarini snanam and Dolotsavam at Sri Kurmam",
+        "Mahashivaratri Jathara at Sri Mukhalingam on the banks of Vamsadhara river"
+      ],
+      "spiritual_significance": "Surya worship at Arasavalli grants relief from eye ailments, skin diseases, and revitalizes vitality.",
+      "scriptural_origin": "Brahma Purana, Padma Purana",
+      "total_temples": 3,
+      "key_locations": [
+        "Arasavalli Sun Temple",
+        "Sri Kurmam Kurmanatha Swamy Temple",
+        "Sri Mukhalingam Shiva Temple"
+      ]
+    }
+  ]
+}

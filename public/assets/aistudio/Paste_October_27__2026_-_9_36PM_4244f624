@@ -1,0 +1,924 @@
+PROJECT: TEMPLEVERSE — ADVANCED AI-POWERED TEMPLE DISCOVERY PLATFORM
+
+You are a senior full-stack engineer, UI/UX designer, AI architect, and product development specialist. Your task is to upgrade my EXISTING TempleVerse project into a polished, advanced, intelligent, and scalable temple discovery platform.
+
+IMPORTANT: This is an existing project imported from my GitHub repository. You must upgrade the current application, not create an unrelated website or replace the existing project with a new template.
+
+My vision is to make TempleVerse a comprehensive digital destination for discovering, understanding, exploring, and experiencing India's sacred temples, traditions, spiritual heritage, and temple-related travel.
+
+The platform should combine spirituality, Indian cultural heritage, modern technology, AI assistance, and an exceptional user experience.
+
+==================================================
+
+1. CRITICAL REQUIREMENTS — FOLLOW STRICTLY
+   ==================================================
+
+Before making any changes:
+
+1. Inspect the complete existing project structure, components, routes, dependencies, database integrations, and current functionality.
+2. Identify the existing design system, typography, colors, content, navigation, and reusable components.
+3. Understand the existing functionality before modifying any files.
+4. Preserve all existing working features.
+5. Upgrade the existing application incrementally.
+
+STRICT CONTENT PRESERVATION:
+
+* DO NOT change any existing words, headings, labels, descriptions, button text, menu names, statistics labels, or other existing website copy.
+* DO NOT change the existing typography or font family.
+* DO NOT replace the existing brand identity with a different design language.
+* DO NOT rewrite the existing homepage content.
+* DO NOT rename existing navigation items.
+* DO NOT remove existing sections simply to simplify the design.
+* DO NOT remove existing routes, components, or features that are already working.
+* DO NOT replace functional features with static mockups.
+* DO NOT introduce duplicate buttons, duplicated navigation items, duplicate sections, or repeated components.
+* DO NOT create multiple buttons that perform the same action unnecessarily.
+* DO NOT create duplicate temple records when expanding the database.
+* DO NOT fabricate temple information, live availability, ticket prices, or booking confirmations.
+
+You MAY redesign the layout, spacing, visual hierarchy, component arrangement, backgrounds, cards, navigation presentation, icons, animations, and responsive behavior, provided the existing wording and typography remain unchanged.
+
+New features may introduce new labels where necessary, but existing text must remain exactly as it is.
+
+Use the uploaded TempleVerse logo as the official brand logo. Integrate the actual image asset into the application rather than recreating the logo with text, emoji, or CSS.
+
+==================================================
+2. INTEGRATE THE OFFICIAL TEMPLEVERSE LOGO
+==========================================
+
+Use my uploaded TempleVerse logo featuring the blue-and-gold temple-inspired TV emblem and the Om symbol.
+
+Requirements:
+
+* Use the actual supplied logo image.
+* Add it to the project assets using a suitable filename, such as templeverse-logo.png.
+* Use the logo in the website header, sidebar branding area, browser favicon where technically appropriate, and application identity.
+* Preserve the logo's original aspect ratio.
+* Do not stretch, crop, distort, or recreate the logo.
+* Use a transparent-background version if one is available.
+* Ensure that the logo remains sharp on desktop, tablet, and mobile screens.
+* Create appropriate spacing around the logo.
+* Keep the existing TEMPLEVERSE brand name and all existing text unchanged.
+* Use a simplified logo variant only if an actual suitable variant is provided.
+* Do not use the entire complex logo as a tiny favicon if it becomes illegible; use an appropriate cropped or simplified version derived from the supplied artwork.
+
+The logo should integrate naturally into the existing cream, gold, and white design while introducing complementary deep-blue accents.
+
+==================================================
+3. REDESIGN THE EXISTING USER INTERFACE
+=======================================
+
+Transform the current interface into a premium, modern, immersive, and visually sophisticated temple discovery experience.
+
+Maintain the existing typography and wording.
+
+DESIGN DIRECTION:
+
+* Premium Indian spiritual technology platform.
+* Modern editorial-style layouts.
+* Elegant temple-inspired visual elements.
+* Cream, ivory, white, gold, and deep-blue color palette.
+* Subtle gradients and refined shadows.
+* Beautiful temple photography.
+* Carefully designed cards and information panels.
+* Smooth, restrained transitions.
+* Consistent spacing and alignment.
+* Accessible contrast and readable text.
+* Responsive desktop, tablet, and mobile layouts.
+
+Do not make the entire website excessively bright, gold, crowded, or filled with decorative effects.
+
+Use gold for emphasis, deep blue for important interface elements, and cream or white for the main surfaces.
+
+A. HEADER
+
+Improve the existing header while preserving all existing text.
+
+Enhance:
+
+* Logo alignment.
+* Search field appearance.
+* Search interaction.
+* User account area, if already implemented.
+* Responsive behavior.
+* Sticky navigation, where appropriate.
+
+B. SIDEBAR
+
+Keep every existing navigation label unchanged, including:
+
+Home
+About
+Explore Temples
+Categories
+Darshanam Tickets
+Temple Festivals
+History
+My Favorites
+Map View
+Nearby Temples
+Contact Us
+By State
+
+Preserve other existing navigation entries as well.
+
+Improve the sidebar with:
+
+* Better spacing.
+* Consistent icons.
+* Clear active states.
+* Smooth scrolling.
+* Responsive collapse behavior.
+* A mobile-friendly navigation drawer.
+* No duplicate menu items.
+* No broken navigation destinations.
+
+Do not remove any existing menu item.
+
+C. HOMEPAGE HERO
+
+Retain the existing TEMPLEVERSE heading and the exact subtitle:
+
+A Divine Journey Through India's Sacred Temples
+
+Preserve the existing wording of all three hero buttons:
+
+Explore Temples
+Map View
+Nearby Temples
+
+Improve the hero layout using:
+
+* A premium temple photograph or carefully designed temple imagery.
+* Subtle blue-and-gold atmospheric effects.
+* Better alignment and spacing.
+* A polished search experience.
+* Refined buttons.
+* Responsive layout.
+* Optional subtle animation that does not affect performance.
+
+Do not change the text or typography.
+
+D. STATISTICS
+
+Preserve the existing statistics and labels, including:
+
+143+ Temples
+28+ States
+12 Jyotilingas
+18 Shakti Peethas
+
+Do not silently replace existing statistics with invented numbers.
+
+Make the statistics data-driven so that the displayed totals can eventually be calculated from verified database records.
+
+If the database does not yet support a reliable total, preserve the current displayed values until accurate replacements are available.
+
+E. FEATURED TEMPLES
+
+Redesign the existing Featured Temples section.
+
+Include:
+
+* High-quality temple images.
+* Temple names.
+* State and city.
+* Temple category.
+* Short descriptions.
+* Verified historical or spiritual significance.
+* Darshan information when available.
+* Favorite controls.
+* View Details actions.
+* Navigation to the corresponding temple detail page.
+
+Preserve existing wording wherever existing content is reused.
+
+Use consistent card dimensions and responsive layouts.
+
+Do not duplicate temple cards or display the same temple multiple times in the same collection unless explicitly required by a separate curated section.
+
+==================================================
+4. EXPAND THE TEMPLE DATABASE SIGNIFICANTLY
+===========================================
+
+TempleVerse must grow beyond its current collection of temples.
+
+Create a structured and expandable temple directory covering major temples throughout India, followed by a systematic expansion to regional and lesser-known temples.
+
+Include temples from:
+
+* Andhra Pradesh
+* Telangana
+* Tamil Nadu
+* Karnataka
+* Kerala
+* Maharashtra
+* Gujarat
+* Rajasthan
+* Uttar Pradesh
+* Madhya Pradesh
+* Odisha
+* West Bengal
+* Bihar
+* Jharkhand
+* Chhattisgarh
+* Assam
+* Himachal Pradesh
+* Uttarakhand
+* Jammu and Kashmir
+* Punjab
+* Haryana
+* Goa
+* Sikkim
+* Arunachal Pradesh
+* Manipur
+* Meghalaya
+* Mizoram
+* Nagaland
+* Tripura
+* Delhi
+* Other Indian states and union territories.
+
+Include the following categories wherever relevant:
+
+1. Famous Hindu temples.
+2. Jyotirlinga temples.
+3. Shakti Peethas.
+4. Char Dham pilgrimage destinations.
+5. Divya Desams.
+6. Important Vaishnavite temples.
+7. Important Shaivite temples.
+8. Important Shakti temples.
+9. Ancient temples.
+10. UNESCO-associated temple heritage sites.
+11. Regional and local temples.
+12. Hill temples.
+13. Coastal temples.
+14. Cave temples.
+15. Historic temple complexes.
+16. Temples associated with important festivals.
+17. Temples with distinctive architectural styles.
+
+EXAMPLE TEMPLES TO INCLUDE OR VERIFY AGAINST THE EXISTING DATABASE:
+
+Andhra Pradesh:
+
+* Sri Venkateswara Temple, Tirumala.
+* Sri Mallikarjuna Swamy Temple, Srisailam.
+* Sri Kanaka Durga Temple, Vijayawada.
+* Sri Varaha Lakshmi Narasimha Temple, Simhachalam.
+* Sri Suryanarayana Temple, Arasavalli.
+* Srikurmam Temple, Srikakulam district.
+* Sri Padmavathi Ammavari Temple, Tiruchanur.
+
+Telangana:
+
+* Sri Raja Rajeshwara Swamy Temple, Vemulawada.
+* Yadadri Lakshmi Narasimha Swamy Temple.
+* Thousand Pillar Temple, Hanamkonda.
+* Ramappa Temple, Palampet.
+
+Tamil Nadu:
+
+* Meenakshi Amman Temple, Madurai.
+* Brihadisvara Temple, Thanjavur.
+* Ramanathaswamy Temple, Rameswaram.
+* Arunachaleswarar Temple, Tiruvannamalai.
+* Sri Ranganathaswamy Temple, Srirangam.
+* Ekambareswarar Temple, Kanchipuram.
+
+Karnataka:
+
+* Virupaksha Temple, Hampi.
+* Chennakesava Temple, Belur.
+* Sri Krishna Matha, Udupi.
+* Chamundeshwari Temple, Mysuru.
+* Murudeshwar Temple, Uttara Kannada.
+
+Kerala:
+
+* Sree Padmanabhaswamy Temple, Thiruvananthapuram.
+* Guruvayur Sri Krishna Temple, Guruvayur.
+* Vadakkunnathan Temple, Thrissur.
+* Sabarimala Sree Ayyappa Temple.
+
+Maharashtra:
+
+* Trimbakeshwar Shiva Temple, Nashik.
+* Bhimashankar Temple.
+* Grishneshwar Temple.
+* Siddhivinayak Temple, Mumbai.
+* Shirdi Sai Baba Temple.
+
+Uttar Pradesh:
+
+* Kashi Vishwanath Temple, Varanasi.
+* Shri Ram Janmabhoomi Mandir, Ayodhya.
+* Banke Bihari Temple, Vrindavan.
+* Krishna Janmabhoomi, Mathura.
+* Vindhyavasini Temple, Vindhyachal.
+
+Odisha:
+
+* Jagannath Temple, Puri.
+* Lingaraja Temple, Bhubaneswar.
+* Konark Sun Temple.
+* Maa Tarini Temple, Ghatgaon.
+
+Gujarat:
+
+* Somnath Temple.
+* Dwarkadhish Temple, Dwarka.
+* Ambaji Temple.
+* Akshardham, Gandhinagar.
+
+Uttarakhand:
+
+* Kedarnath Temple.
+* Badrinath Temple.
+* Gangotri Temple.
+* Yamunotri Temple.
+* Jageshwar Temple Complex.
+
+Rajasthan:
+
+* Brahma Temple, Pushkar.
+* Shrinathji Temple, Nathdwara.
+* Karni Mata Temple, Deshnok.
+* Eklingji Temple, Udaipur region.
+
+West Bengal:
+
+* Dakshineswar Kali Temple.
+* Kalighat Kali Temple.
+* Tarapith Temple.
+
+Bihar:
+
+* Mahabodhi Temple, Bodh Gaya.
+* Vishnupad Temple, Gaya.
+
+Assam:
+
+* Kamakhya Temple, Guwahati.
+* Umananda Temple, Guwahati.
+
+Madhya Pradesh:
+
+* Mahakaleshwar Temple, Ujjain.
+* Omkareshwar Temple.
+* Kandariya Mahadeva Temple, Khajuraho.
+* Chintaman Ganesh Temple, Ujjain.
+
+This is an initial reference list, not a limit. Expand the directory substantially.
+
+First inspect the existing database and avoid inserting duplicate records.
+
+IMPORTANT DATA REQUIREMENTS:
+
+Every temple record should support:
+
+* Unique ID or slug.
+* Official temple name.
+* Alternative names.
+* State.
+* District.
+* City or locality.
+* Full address when verified.
+* Latitude and longitude when verified.
+* Temple category.
+* Presiding deity.
+* Historical background.
+* Architectural information.
+* Spiritual or religious significance.
+* Associated festivals.
+* Typical visiting hours, if verified.
+* Darshan information, if available.
+* Official website, if available.
+* Official booking page, if available.
+* Contact information, if verified.
+* Image URLs and attribution where applicable.
+* Data source.
+* Last verified date.
+
+Use a database-backed architecture if one already exists.
+
+If the project currently relies on local sample data, introduce a clean data layer that can later be connected to a database without rewriting every page.
+
+Do not generate hundreds of fake records simply to make the website appear populated.
+
+Populate a meaningful, verified initial collection and build the system to support continued expansion.
+
+==================================================
+5. ADVANCED TEMPLE SEARCH
+=========================
+
+Upgrade the existing temple search functionality.
+
+Users should be able to search by:
+
+* Temple name.
+* City.
+* District.
+* State.
+* Deity.
+* Temple category.
+* Historical period.
+* Festival.
+* Pilgrimage destination.
+* Nearby location.
+
+Implement:
+
+* Search suggestions.
+* Typo-tolerant matching where practical.
+* Clear search controls.
+* Loading states.
+* Empty states.
+* Search result counts.
+* Sorting.
+* Filters.
+* Pagination or efficient incremental loading.
+
+Search must operate on actual temple records rather than merely changing the displayed text.
+
+The header search and temple directory should use the same underlying search logic.
+
+Avoid implementing duplicate search systems with inconsistent results.
+
+==================================================
+6. TEMPLE DETAILS PAGES
+=======================
+
+Every temple card should open a proper temple details page.
+
+Create a rich, organized temple profile with:
+
+* Temple name and location.
+* Large temple photograph.
+* Image gallery.
+* Historical overview.
+* Religious significance.
+* Presiding deity.
+* Architecture.
+* Important festivals.
+* Darshan information.
+* Opening hours when verified.
+* Directions and map.
+* Nearby attractions.
+* Travel guidance.
+* Official website.
+* Official ticket or booking link when available.
+* Related temples.
+* Share functionality.
+* Add to Favorites functionality.
+
+Use tabs, accordions, or clearly separated sections where appropriate.
+
+Keep the presentation beautiful, readable, and consistent with the existing brand.
+
+All internal links must open the correct temple profile.
+
+==================================================
+7. AI TEMPLEVERSE ASSISTANT
+===========================
+
+Build an intelligent AI chatbot as a major feature of TempleVerse.
+
+The assistant should help visitors discover temples and understand India's spiritual and cultural heritage.
+
+Possible assistant name:
+
+TempleVerse AI Assistant
+
+Add a floating chat button that opens a polished conversational interface.
+
+The chatbot should support questions such as:
+
+* Which temples can I visit in Srikakulam?
+* Show me famous Shiva temples in Andhra Pradesh.
+* What is the historical significance of Arasavalli Temple?
+* Which Jyotirlinga temples are in Maharashtra?
+* What temples can I visit near Tirupati?
+* Explain the history of the Brihadisvara Temple.
+* Which temples are associated with a particular festival?
+* Help me plan a two-day temple trip.
+* Show temples near my current location.
+* What should I know before visiting this temple?
+* How can I reach a selected temple?
+* Where can I find official darshan booking information?
+
+CHATBOT CAPABILITIES:
+
+1. Understand natural-language queries.
+2. Search the actual TempleVerse temple database.
+3. Recommend temples based on the user's stated interests.
+4. Retrieve verified temple information.
+5. Suggest itineraries using realistic travel distances and available information.
+6. Provide links to relevant temple detail pages.
+7. Display relevant temple cards within the conversation.
+8. Ask follow-up questions when essential information is missing.
+9. Support conversational follow-up questions.
+10. Clearly communicate when information is unavailable or unverified.
+
+AI IMPLEMENTATION:
+
+* Inspect the project's current technology stack before choosing the implementation.
+* Reuse existing AI integrations where appropriate.
+* If an AI API is already configured, preserve it rather than replacing it unnecessarily.
+* Keep API keys and credentials on the server.
+* Never expose secret keys in frontend code.
+* Provide loading, error, retry, and empty states.
+* Use database retrieval or a retrieval-augmented generation architecture when appropriate.
+* Ground factual responses in the available temple records and reliable sources.
+* Never invent opening hours, ticket availability, official links, or temple policies.
+
+If AI credentials are unavailable, implement the chat interface and a clearly defined backend integration point. Do not pretend that a live AI connection is working when it is not.
+
+==================================================
+8. MAP VIEW AND NEARBY TEMPLES
+==============================
+
+Upgrade the existing Map View and Nearby Temples sections.
+
+MAP FEATURES:
+
+* Display temple markers using verified coordinates.
+* Allow users to select a marker.
+* Show a compact temple information card.
+* Open the corresponding temple details page.
+* Support map zooming and panning.
+* Filter temples by category and location.
+* Show nearby destinations where data is available.
+
+NEARBY TEMPLES:
+
+* Request browser location permission only when the user chooses to use their location.
+* Explain why location access is useful.
+* Allow manual city or location search if permission is denied.
+* Calculate proximity using valid coordinates.
+* Show distance and directions when available.
+* Avoid displaying false distances or claiming to know the user's location without permission.
+
+Use a suitable mapping provider and follow its API requirements and licensing terms.
+
+Do not leave the Map View button connected to an empty page.
+
+==================================================
+9. DARSHAN INFORMATION AND TICKET DISCOVERY
+===========================================
+
+Improve the existing Darshanam Tickets section.
+
+The goal is to help users understand darshan options and find legitimate booking resources.
+
+Support:
+
+* Temple-specific darshan information.
+* Ticket categories when officially documented.
+* Official booking website links.
+* Booking instructions.
+* Relevant restrictions or requirements when verified.
+* Information about free darshan where applicable.
+* Links to official temple announcements.
+
+Do not claim to sell or book tickets unless a real booking integration exists.
+
+Do not invent ticket prices, available time slots, confirmation numbers, or booking status.
+
+Clearly distinguish between official booking links and general information.
+
+==================================================
+10. FESTIVALS, HISTORY, AND CULTURAL HERITAGE
+=============================================
+
+Enhance the existing Temple Festivals and History sections.
+
+TEMPLE FESTIVALS:
+
+Display:
+
+* Festival name.
+* Associated temple.
+* Location.
+* Festival description.
+* Typical celebration period.
+* Important rituals and traditions where verified.
+* Official announcements where available.
+* Links to related temple profiles.
+
+HISTORY:
+
+Provide educational information about:
+
+* Temple architecture.
+* Historical periods.
+* Regional temple traditions.
+* Important inscriptions and heritage.
+* Religious and cultural significance.
+* Historical dynasties and patronage.
+* Heritage conservation.
+
+Separate documented historical facts from religious traditions and beliefs.
+
+Use trustworthy sources and provide source references where practical.
+
+Do not invent historical events or present uncertain claims as established facts.
+
+==================================================
+11. PERSONALIZATION AND USER FEATURES
+=====================================
+
+Improve existing Favorites functionality.
+
+Add or enhance:
+
+* Save a temple to Favorites.
+* Remove a saved temple.
+* View saved temples.
+* Create a personal temple wishlist.
+* Track visited temples.
+* Build a personal pilgrimage list.
+* Share temple information.
+* Save a planned itinerary.
+
+Where authentication already exists, integrate these features with the existing user system.
+
+If authentication does not exist, design the features so they can work with local storage for a prototype and later migrate to authenticated, database-backed storage.
+
+Do not claim that local data is synchronized across devices.
+
+==================================================
+12. AI-POWERED TEMPLE JOURNEY PLANNER
+=====================================
+
+Introduce a dedicated temple journey planning feature.
+
+Users should be able to specify:
+
+* Starting city.
+* Destination or preferred region.
+* Travel dates.
+* Number of days.
+* Preferred temple categories.
+* Maximum travel distance or time.
+* Interests in history, architecture, festivals, or pilgrimage.
+
+The system should generate a structured itinerary containing:
+
+* Day-wise temple visits.
+* Temple locations.
+* Suggested visit order.
+* Estimated travel distances when supported by reliable coordinates or routing data.
+* Approximate travel durations when routing data is available.
+* Relevant temple visiting information.
+* Official booking resources.
+* Nearby attractions.
+* Practical travel notes.
+
+Allow users to open each temple directly from the itinerary.
+
+Do not fabricate live traffic information, transport availability, hotel availability, or festival schedules.
+
+Clearly label estimates and unverified information.
+
+If a complete routing or live-data integration is unavailable, provide a functional basic itinerary planner using the data already available.
+
+==================================================
+13. ADDITIONAL FEATURES
+=======================
+
+Add the following features where they can be implemented cleanly without cluttering the interface.
+
+A. Temple comparison:
+Compare two or more temples by location, deity, architecture, historical background, and available visiting information.
+
+B. Temple discovery:
+Provide curated collections such as ancient temples, architectural wonders, famous pilgrimage destinations, and regional discoveries.
+
+C. Regional exploration:
+Allow visitors to explore temples state by state and district by district.
+
+D. Related temples:
+Recommend related temples based on location, deity, category, history, or cultural connections.
+
+E. Temple image galleries:
+Provide high-quality images with appropriate attribution and usage rights.
+
+F. Language-ready architecture:
+Prepare the application for future multilingual support, including Telugu, Hindi, Tamil, Kannada, and other Indian languages. Do not automatically translate or change the existing interface text in this upgrade.
+
+G. Accessibility:
+Support keyboard navigation, meaningful labels, visible focus states, appropriate contrast, and accessible image descriptions.
+
+H. Sharing:
+Allow users to share individual temple pages using a clean URL.
+
+I. Recently viewed:
+Provide an optional recently viewed temples section.
+
+J. Notifications:
+Design an extensible foundation for future festival reminders and temple-related updates. Do not send notifications without user consent.
+
+==================================================
+14. FUNCTIONALITY — EVERY BUTTON MUST WORK
+==========================================
+
+This is a mandatory requirement.
+
+Inspect every existing and newly introduced interactive element.
+
+Verify:
+
+* Logo navigation.
+* Header search.
+* Search suggestions.
+* Go button.
+* Explore Temples button.
+* Map View button.
+* Nearby Temples button.
+* Sidebar navigation.
+* Temple cards.
+* View Details buttons.
+* Favorite buttons.
+* Filter controls.
+* Category selectors.
+* State selectors.
+* Pagination controls.
+* AI chatbot.
+* Chat submission.
+* Chat close button.
+* Map markers.
+* Directions links.
+* Ticket information links.
+* Festival cards.
+* History links.
+* Share buttons.
+* Wishlist controls.
+* Journey planner.
+* Mobile navigation.
+
+Rules:
+
+1. Each button must have one clear purpose.
+2. Each button must execute the appropriate action.
+3. Navigation buttons must open valid destinations.
+4. Search must return relevant records.
+5. Filters must actually filter records.
+6. Favorite controls must save or remove favorites.
+7. Chat controls must open, send, and close the chat correctly.
+8. Forms must validate inputs and provide useful feedback.
+9. External links must point to legitimate destinations.
+10. Loading and error states must be implemented where needed.
+11. No placeholder buttons that appear functional but do nothing.
+12. No duplicated event handlers.
+13. No duplicated components accidentally rendered in multiple places.
+14. No repeated sections introduced during the redesign.
+15. No JavaScript errors or broken navigation.
+
+Reuse existing components and event handlers when possible.
+
+Do not add a second button when an existing button already provides the required functionality.
+
+==================================================
+15. RESPONSIVENESS AND PERFORMANCE
+==================================
+
+Make the website work correctly on:
+
+* Desktop computers.
+* Laptops.
+* Tablets.
+* Android phones.
+* iPhones.
+
+Optimize:
+
+* Image sizes.
+* Lazy loading.
+* Component rendering.
+* Search performance.
+* Database queries.
+* API requests.
+* Mobile navigation.
+* Layout stability.
+* Animation performance.
+
+Avoid unnecessary dependencies and excessive animations.
+
+Ensure that large temple collections do not cause the entire application to become slow.
+
+Use pagination or incremental loading where appropriate.
+
+Preserve the existing build configuration unless a change is necessary.
+
+==================================================
+16. TECHNICAL IMPLEMENTATION
+============================
+
+First identify the actual stack used by the existing repository.
+
+Preserve its framework, build tooling, routing approach, styling system, and existing backend integrations wherever practical.
+
+Do not blindly migrate the application to another framework.
+
+Before adding dependencies, check whether equivalent functionality is already available.
+
+Use:
+
+* Reusable UI components.
+* A centralized temple data model.
+* Consistent routing.
+* Proper form validation.
+* Reliable error handling.
+* Secure server-side API integrations.
+* A maintainable project structure.
+* Environment variables for secrets.
+* Appropriate database constraints and unique identifiers.
+
+If the project already has a database, extend its schema carefully and preserve existing data.
+
+If a database migration is necessary, make it backward-compatible where possible.
+
+Do not overwrite the entire project or delete important existing files.
+
+Do not replace working application logic with hardcoded demo content.
+
+==================================================
+17. TESTING AND QUALITY ASSURANCE
+=================================
+
+After implementation:
+
+1. Run the available build command.
+2. Resolve compilation and dependency errors.
+3. Check for missing imports.
+4. Check for broken routes.
+5. Check for missing images.
+6. Check for duplicated components.
+7. Check for console errors.
+8. Test search functionality.
+9. Test all main navigation items.
+10. Test Favorites.
+11. Test the AI chat interface and backend integration.
+12. Test map behavior and location permission handling.
+13. Test responsive layouts.
+14. Verify that existing text remains unchanged.
+15. Verify that existing typography remains unchanged.
+16. Verify that the supplied logo is being used.
+17. Confirm that existing functionality has not been broken.
+
+Do not report a test as successful unless it has actually been performed.
+
+If an external API requires credentials, document the exact environment variable required and clearly identify what remains unconfigured.
+
+==================================================
+18. IMPLEMENTATION PRIORITIES
+=============================
+
+Work in this order:
+
+PHASE 1 — AUDIT AND PRESERVATION
+Inspect the repository, existing interface, routes, components, data, and functionality. Identify potential duplication issues.
+
+PHASE 2 — BRAND AND UI
+Integrate the supplied logo and improve the interface while preserving all existing wording and typography.
+
+PHASE 3 — TEMPLE DIRECTORY
+Expand the temple database, eliminate duplicates, introduce better filtering, and build rich temple detail pages.
+
+PHASE 4 — CORE INTERACTIONS
+Make search, navigation, maps, favorites, and existing features functional.
+
+PHASE 5 — AI FEATURES
+Implement the TempleVerse AI Assistant and Temple Journey Planner using the existing stack and appropriate data integrations.
+
+PHASE 6 — ADVANCED FEATURES
+Improve festivals, history, regional exploration, ticket discovery, related temples, and personalization.
+
+PHASE 7 — TESTING
+Build, test, fix errors, and verify the completed implementation.
+
+Do not stop after creating a visual mockup.
+
+Implement the actual application changes in the existing repository.
+
+If the complete scope cannot be completed in one pass, prioritize a working, coherent implementation and continue with the remaining features without damaging previously completed work.
+
+==================================================
+FINAL PRODUCT VISION
+====================
+
+TempleVerse should become a comprehensive digital platform for India's temple ecosystem.
+
+It should help people discover temples, learn about their heritage, explore sacred destinations, find trustworthy darshan information, understand festivals, discover nearby places, and plan meaningful temple journeys with the assistance of AI.
+
+The experience should feel modern, premium, intelligent, accessible, and spiritually meaningful.
+
+The design must preserve the existing identity of TempleVerse rather than replacing it.
+
+The supplied blue-and-gold TempleVerse logo must become the central visual identity.
+
+MOST IMPORTANT FINAL INSTRUCTION:
+
+Upgrade my existing project. Preserve every existing word and the current typography. Do not create duplicate buttons or duplicate sections. Add a substantial, verified temple directory and functional AI features. Improve the UI without removing working functionality. Test the application before declaring the work complete.

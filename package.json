@@ -7,11 +7,15 @@
     "node": "22"
   },
   "scripts": {
-    "dev": "cross-env NODE_OPTIONS=--max_old_space_size=8192 vite",
+    "dev": "cross-env NODE_OPTIONS=--max_old_space_size=8192 tsx server.ts",
     "build": "vite build",
+    "start": "node server.ts",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@google/genai": "^2.31.0",
+    "cors": "^2.8.6",
+    "express": "^5.3.0",
     "framer-motion": "^12.15.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -19,11 +23,14 @@
     "tone": "^15.1.22"
   },
   "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
     "@vitejs/plugin-react": "^4.0.0",
     "autoprefixer": "^10.4.21",
     "cross-env": "^7.0.3",
     "postcss": "^8.5.4",
     "tailwindcss": "^3.4.3",
+    "tsx": "^4.23.15",
     "vite": "^6.3.5"
   }
 }

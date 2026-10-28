@@ -1,0 +1,7 @@
+{
+  "name": "Templeverse",
+  "description": "Comprehensive Hindu temple exploration app featuring Jyotirlingas, Shakti Peethas, Pancha Bhoota Stalams, rituals, prasads, darshan details, and audio.",
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

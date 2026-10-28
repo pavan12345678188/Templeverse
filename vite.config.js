@@ -5,7 +5,9 @@ export default defineConfig({
   base: './', // Use relative paths for assets
   plugins: [react()],
   server: {
-    port: 3000
+    host: '0.0.0.0',
+    port: 3000,
+    allowedHosts: 'all'
   },
   css: {
     postcss: './postcss.config.js', // Add this line
